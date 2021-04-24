@@ -1,0 +1,79 @@
+<!--Formulário criado por Edilza Eleres -->
+<!-- Data: 22/04/2021-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro 2.0</title>
+    <link rel="shortcut icon" href="./imagens/icons8-heart-with-pulse-48.png" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="registro">
+        <h1>Cadastro de Pacientes</h1>
+    </div>
+    <div class="conteudo">
+        <form>
+            <div id="nome">
+                <h2 class="nome">Nome completo</h2>
+                <input class="firstname" type="text" name="primeiro-nome">
+                <label class="firstnamelabel"></label>
+                <h2 class="nome">Idade</h2>
+
+                <select class="idade" name="idade">
+             <option disabled="disabled" selected="selected">---- Selecione a idade ----</option>   
+            <option>De 0 a 18 anos</option>
+            <option>De 19 anos a 24 anos</option>
+            <option>De 25 anos a 45 anos</option>
+            <option>De 46 anos a 60 anos</option>
+            <option>+ de 60 anos</option>
+            </select>
+
+                <h2 class="nome">Sexo</h2>
+                <select class="opcoes" name="assunto">
+            <option disabled="disabled" selected="selected">---- Selecione a opção ----</option>
+            <option>Masculino</option>
+            <option>Feminino</option>
+            <option>Trans</option>
+            </select>
+
+                <h2 class="nome">Nome da mãe</h2>
+                <input class="nomedamae" type="text" name="nomedame">
+                <label class="nomedamaelabel"></label>
+
+
+                <h2 class="nome">Nome do pai</h2>
+                <input class="nomedopai" type="text" name="nomedopai">
+
+                <h2 class="nome">Email</h2>
+                <input class="email" type="text" name="email">
+
+                <h2 class="nome">Telefone com DDD</h2>
+                <input class="codigo" type="text" nome="codigo">
+                <label class="codigo_area">DDD</label>
+                <input class="number" type="text" name="phone">
+                <label class="numero-telefone">Telefone</label>
+
+
+                <h2 class="nome">É a sua primeira vez em uma consulta psicológica?</h2>
+                <span>
+                    <h2 class="radio">
+                    <input class="radio" type="radio" name="opcao" value="op1">Sim
+                    <input class="radio" type="radio" name="opcao" value="op2"> Não
+                    </h2>
+                    </span>
+
+                <button type="submit">Enviar</button>
+
+
+        </form>
+        </div>
+
+
+</body>
+
+</html>
